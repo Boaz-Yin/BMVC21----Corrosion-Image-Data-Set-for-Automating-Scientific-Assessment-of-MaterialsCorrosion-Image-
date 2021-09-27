@@ -1,0 +1,51 @@
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_1 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv1
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_2 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv2
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_3 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv3
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_4 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv4
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_5 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv5
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_6 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv6
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_7 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv7
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_8 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv8
+
+
+source env/bin/activate
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_9 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv9
+
+
+
+
+python3 train_o_HR.py --config configs/imagenet/hrnet18.yaml dataset.dataset_dir orig_600_balanced_10folds/cross_val_10 dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 1e-4 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 augmentation.use_random_horizontal_flip True augmentation.random_horizontal_flip.prob 0.25 train.output_dir scheduler_single_10cv_bestparam_lr1e3_wd5e2/ori/HRNet/crossval/combo1/cv10
+
+
+
