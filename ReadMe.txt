@@ -32,6 +32,7 @@ BMVC_final_codebase
 --------------these are example submission scripts to TEST the models, provided are the scripts which run the best performing augmentations provided in the paper
 
 ------testing
+------RUN these .py files while in the testing/ directory
 ----------configs
 --------------yaml configuration files for all models, similar to other configs folder
 ----------pytorch_image_classification
