@@ -68,3 +68,7 @@ BMVC_final_codebase
 ------train_o_HR.py
 ----------main training script to train HRNet ONLY
 ----------this script runs when running the submission script for HRNet found in submission_files_examples/training/
+
+
+------pytorch-grad-cam-master
+----------codes for visualizing final convolutional layer for each model (ResNet-18, ResNet-50, DenseNet, HRNet)
