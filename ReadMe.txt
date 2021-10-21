@@ -4,6 +4,10 @@ Paper title: Corrosion Image Data Set for Automating Scientific Assessment of Ma
 
 Code originally based on: link to original github 
 
+License file found in:
+
+Code based on: https://github.com/hysts/pytorch_image_classification  
+
 Key folder/file descriptions:
 
 BMVC_final_codebase
