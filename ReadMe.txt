@@ -2,11 +2,7 @@ ReadMe file for BMVC 2021 Dataset paper submission
 
 Paper title: Corrosion Image Data Set for Automating Scientific Assessment of Materials
 
-Code originally based on: link to original github 
-
-License file found in:
-
-Code based on: https://github.com/hysts/pytorch_image_classification  
+Code originally based on: https://github.com/hysts/pytorch_image_classification  
 
 Key folder/file descriptions:
 
