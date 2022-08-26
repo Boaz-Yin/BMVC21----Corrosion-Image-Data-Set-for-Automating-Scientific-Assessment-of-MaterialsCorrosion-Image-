@@ -55,9 +55,9 @@ cd ~/my_pytorch_classification_corrosion
 
 source env/bin/activate
 
-python3 train_o.py --config configs/imagenet/resnet34.yaml dataset.dataset_dir indoor_ori dataset.n_classes 6 train.base_lr 1e-3 train.weight_decay 5e-2 train.batch_size 64 validation.batch_size 1 scheduler.epochs 1 augmentation.use_gaussianblur True train.output_dir experiments/corrosion/ori/resnet34/aug_3
-python3 train_o.py --config configs/imagenet/resnet34.yaml dataset.dataset_dir indoor_binary dataset.n_classes 6 train.base_lr 1e-3 train.weight_decay 5e-2 train.batch_size 64 validation.batch_size 1 scheduler.epochs 1 augmentation.use_gaussianblur True train.output_dir experiments/corrosion/binary/resnet34/aug_3
+# An example from submission_files_examples/training/ResNet_50.txt
 
+python3 train_o.py --config configs/imagenet/resnext50_32x4d.yaml dataset.dataset_dir DATA_SET_FOR_RELEASE/DATA_SET_FOR_RELEASE/renamed/cross_val_1  dataset.n_classes 5 train.base_lr 1e-3 train.weight_decay 5e-2 train.batch_size 32 validation.batch_size 1 scheduler.epochs 2000 scheduler.warmup.type 'exponential' scheduler.type 'cosine' augmentation.use_colorjitter True augmentation.colorjitter.bright_1 1.5 augmentation.colorjitter.bright_2 2.0 augmentation.colorjitter.contrast_1 0.5 augmentation.colorjitter.contrast_2 1.5 augmentation.colorjitter.sat_1 0.5 augmentation.colorjitter.sat_2 1.5 augmentation.colorjitter.hue 0.5 augmentation.colorjitter.prob 0.25 augmentation.use_random_erasing True augmentation.random_erasing.prob 0.25 augmentation.random_erasing.area_ratio_range_1 0.05 augmentation.random_erasing.area_ratio_range_2 0.15 augmentation.random_erasing.max_attempt 5 augmentation.use_random_perspective True augmentation.random_perspective.distortion_scale 0.25 augmentation.random_perspective.prob 0.75 augmentation.use_randomresizecrop True augmentation.random_resize_crop.scale_1 0.3 augmentation.random_resize_crop.scale_2 0.7 augmentation.random_resize_crop.prob 0.25 augmentation.use_random_crop True augmentation.random_crop.padding 4 augmentation.random_crop.padding_mode 'constant' augmentation.random_crop.prob 0.50 train.output_dir scheduler_single_10cv_bestparam/ori/R50/crossval/combo/cv1
 ```
 ## Models
 
