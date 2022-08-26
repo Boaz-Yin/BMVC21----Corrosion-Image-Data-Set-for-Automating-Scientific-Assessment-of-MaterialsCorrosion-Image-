@@ -28,7 +28,7 @@ DATA_SET_FOR_RELEASE
 * Python >= 3.7
 * PyTorch >= 1.4.0
 * torchvision
-* # pytorch install suggestion: conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
+* pytorch install suggestion: conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 * [NVIDIA Apex](https://github.com/NVIDIA/apex)
 
 ```bash
