@@ -64,6 +64,7 @@ python3 train_o.py --config configs/imagenet/resnext50_32x4d.yaml dataset.datase
 ## Models
 
 ```bash
+# check all the model submissionn files under folder: submission_files_examples
   Densenet
   Pyramidnet
   resnet18
