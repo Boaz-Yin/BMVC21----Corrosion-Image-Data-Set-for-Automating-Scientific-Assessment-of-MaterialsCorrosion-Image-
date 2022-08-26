@@ -17,9 +17,10 @@ Enjoy : )
 01/02/2020
 
 ## Data folders
-
-1. indoor_binary
-2. indoor_ori
+```bash
+#Download from https://arl.wpi.edu/corrosion_dataset/#
+DATA_SET_FOR_RELEASE
+```
 
 ## Requirements
 
