@@ -12,12 +12,6 @@ You can also open tensorboard to view train images (augumented and not-augmented
 
 If you have any questions, please feel free to contact: byin@wpi.edu
 
-MIT License © [2021] [Worcester Polytechnic Institute]
-This corrosion image data set has been introduced by the paper, “Corrosion Image Data Set for Automating Scientific Assessment of Materials” published at the British Machine Vision Conference BMVC 2021. Please follow the instructions below for downloading, use and proper citation of the data set. Additional details on the data included on the download is found in the downloaded README file.
-
-Cite this dataset:
-@InProceedings{yin2021BMVC, author = {Yin, Biao and Josselyn, Nicholas and Considine, Thomas and Kelley, John and Rinderspacher, Berend and Jensen, Robert and Snyder, James and Zhang, Ziming and Rundensteiner, Elke},title = {Corrosion Image Data Set for Automating Scientific Assessment of Materials},booktitle = {British Machine Vision Conference (BMVC)},year = {2021}}
-
 Enjoy : )
 
 01/02/2020
@@ -140,3 +134,17 @@ config.tta = ConfigNode()
 config.tta.use_resize = False
 config.tta.use_center_crop = False
 config.tta.resize = 256
+```
+
+## Model snapshot files
+```bash
+https://drive.google.com/drive/folders/1xpS24yrUclQ_8B_fAYKJ03nGq7xawnTy?usp=sharing
+```
+
+## LICENSE and citation requirement
+MIT License © [2021] [Worcester Polytechnic Institute]
+This corrosion image data set has been introduced by the paper, “Corrosion Image Data Set for Automating Scientific Assessment of Materials” published at the British Machine Vision Conference BMVC 2021. Please follow the instructions below for downloading, use and proper citation of the data set. Additional details on the data included on the download is found in the downloaded README file.
+
+Cite this dataset:
+@InProceedings{yin2021BMVC, author = {Yin, Biao and Josselyn, Nicholas and Considine, Thomas and Kelley, John and Rinderspacher, Berend and Jensen, Robert and Snyder, James and Zhang, Ziming and Rundensteiner, Elke},title = {Corrosion Image Data Set for Automating Scientific Assessment of Materials},booktitle = {British Machine Vision Conference (BMVC)},year = {2021}}
+
