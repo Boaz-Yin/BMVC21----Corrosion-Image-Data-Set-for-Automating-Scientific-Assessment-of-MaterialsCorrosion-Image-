@@ -72,18 +72,18 @@ python3 train_o.py --config configs/imagenet/resnet34.yaml dataset.dataset_dir i
 ## Augmentations can be realized:
 
 ```bash
-  use_random_crop: True / Flase
-  use_gaussianblur: True / Flase
-  use_colorjitter: True / Flase
-  use_center_crop: True / Flase
-  use_random_horizontal_flip: True / Flase
-  use_cutout: True / Flase
-  use_random_erasing: True / Flase
-  use_dual_cutout: True / Flase
-  use_mixup: True / Flase
-  use_ricap: True / Flase
-  use_cutmix: True / Flase
-  use_label_smoothing: True / Flase
+  use_random_crop: True / False
+  use_gaussianblur: True / False
+  use_colorjitter: True / False
+  use_center_crop: True / False
+  use_random_horizontal_flip: True / False
+  use_cutout: True / False
+  use_random_erasing: True / False
+  use_dual_cutout: True / False
+  use_mixup: True / False
+  use_ricap: True / False
+  use_cutmix: True / False
+  use_label_smoothing: True / False
 ``` 
 ## How to change detailed augumentation parameters:
 ```bash
